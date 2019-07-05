@@ -1,0 +1,150 @@
+html{
+    box-sizing: border-box; 
+    border: 2px solid black;
+    
+    }
+
+
+#san{
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px;
+    text-align: left;
+    margin-left: 21.5%;
+    font-style: italic;
+    color:black;
+    border-bottom-color: rgb(241, 238, 234);
+    margin-right: 21.5%;
+    padding-left: 10px;
+    text-align: center;
+    background-color:#fafbfc;
+}
+
+/*.menu{
+margin-left: 0px;
+padding: 20px;  
+justify-content: space-between;
+
+}*/
+
+body{
+    background-color:black;
+}
+
+.user-info{
+justify-content: center;
+
+}
+
+/* #search{
+    margin-left: 40px;
+ */
+/* } */
+#search{
+    margin-left: 0%;
+}
+ .logo{
+    border: 2px solid red;
+    background-color: #FFFFFF;
+    height: 90px;
+    border-radius:50%;
+    width: 90px;
+/* clip-path: circle(50% at 50% 50%) */
+
+ }
+
+ .logo:hover{
+    transform: scale(1.5);
+ }
+
+.logo img{
+    width: 100%;
+    /* clip-path: circle(50% at 50% 50%); */
+}
+
+#followers{
+    border: 2px solid blue;
+    text-align: center;
+    margin-left: 50%;
+
+}
+
+#footer1{
+background-color:#edf1f7;
+color:black;
+text-align: center;
+}
+
+.container{
+width: 700px;
+margin: 0 auto;
+background-color:#fafbfc;
+
+}
+
+.pictures{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    -ms-grid-column-align: center;
+    margin-left: 3%;
+
+}
+
+
+
+#content{
+    margin-left: 250px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+    color: red;
+    margin-right: 350px;
+    
+    
+}
+
+#content:hover{
+    color:green;
+    
+}
+
+table{
+    padding-bottom: 0;
+}
+
+#secondtable{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#rowone{
+    width: 10%;
+    vertical-align: bottom;
+}
+#rowtwo{
+    width: 20%;
+    vertical-align: bottom;
+}
+#rowthree{
+    width: 20%;
+    vertical-align: bottom;
+}
+
+#follow{
+    font-size: 70%;
+    color:blue;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 20%;
+    margin-right:20%;
+
+}
+
+#follow:hover{
+    transform: scale(1.1);
+}
+
+
